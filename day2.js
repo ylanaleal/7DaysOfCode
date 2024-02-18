@@ -23,8 +23,9 @@
 let yourName = prompt('Qual o seu nome?');
 let age = prompt('Quantos anos você tem?');
 let language = prompt('Qual linguagem de programação você está estudando?');
+const msg = `Olá ${yourName}, você tem ${age} anos e já está aprendendo ${language}!`
 
-alert(`Olá ${yourName}, você tem ${age} anos e já está aprendendo ${language}!`);
+alert(msg);
 
 let likeLanguage = prompt(`Você gosta de estudar ${language}? Responda com o número 1 para SIM ou 2 para NÃO`);
 
